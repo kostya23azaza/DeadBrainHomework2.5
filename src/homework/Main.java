@@ -20,7 +20,7 @@ public class Main {
         float arr[] = new float[size];
         float arr1[] = new float[halfSize];
         float[] arr2 = new float[halfSize];
-        for (int i = 0; i < arr.length; i++) 
+        for (int i = 0; i < arr.length; i++)
             arr[i] = 1.0f;
         long time = System.currentTimeMillis();
         System.arraycopy(arr, 0, arr1, 0, halfSize);
@@ -41,5 +41,5 @@ public class Main {
         Main start = new Main();
         start.firstThread();
         start.secondThread();
-    }
+    }//difficult homework
 }
